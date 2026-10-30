@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --ink: #111827;
+    --muted: #656b73;
+    --line: #e9ebef;
+}
+
+body {
+    margin: 0;
+    color: var(--ink);
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.logo-area {
+    
+    gap: 10px;
+
+    min-width: 230px;
+}
+
+.logo-icon {
+    font-size: 35px;
+}
+
+.logo-area h2 {
+    font-size: 22px;
+    color: maroon;
+    font-weight: 900;
+}
+
+.logo-area p {
+    font-size: 9px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    bottom: 15px;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+}
+
+.topbar {
+    max-width: 1240px;
+    margin: auto;
+    min-height: 112px;
+    padding: 22px 24px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 0 0 285px;
+}
+
+.brand-mark {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 36px;
+    border: 3px solid #111827;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #f59e0b;
+    transform: skew(-7deg);
+}
+
+.brand strong {
+    display: block;
+    color: #e28b00;
+    font-size: 19px;
+    line-height: 1.1;
+    letter-spacing: -.4px;
+    text-shadow: 1px 1px #111;
+}
+
+.brand small {
+    display: block;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .45px;
+    margin-top: 3px;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+    min-width: 180px;
+    height: 46px;
+}
+
+.search input {
+    width: 100%;
+    min-width: 0;
+    border: 1px solid #e1e4e9;
+    padding: 0 16px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search input:focus {
+    border-color: #17243c;
+}
+
+.search button {
+    width: 62px;
+    border: 0;
+    background: #101a2e;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 0 22px 22px 0;
+    line-height: 1;
+}
+
+.account,
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.account b {
+    font-size: 13px;
+}
+
+.user-icon {
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 13px;
+}
+
+.cart span:first-child {
+    font-size: 24px;
+}
+
+.main-nav {
+    min-height: 54px;
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 24px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.main-nav a:hover {
+    color: #e28b00;
+}
+
+/* 222222222222222222222222222222222222222222222222222222 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.breadcrumb {
+    padding: 25px 10px;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 100px;
+}
+
+.breadcrumb p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.breadcrumb p:last-child {
+    margin-bottom: 10px;
+}
+
+.bike-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 48px 30px;
+    margin-top: 40px;
+}
+
+.bike-card {
+    position: relative;
+    height: 260px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: #092b65;
+    height: 45px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo span {
+    color: #d71920;
+    font-size: 22px;
+}
+
+.bike-card img {
+    display: block;
+    width: 100%;
+    height: 155px;
+    object-fit: contain;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.bike-info {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    min-height: 65px;
+    margin: -15px auto 0;
+    padding: 12px 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.bike-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.bike-info p {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+/* 3333333333333333333333333333333333333333333333333333 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.footer {
+    width: 100%;
+    background-color: #172538;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.footer-container {
+    max-width: 1240px;
+    margin: auto;
+    padding: 78px 20px 65px;
+
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr 1fr;
+    gap: 55px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.footer-column a {
+    color: #f1f3f6;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 22px;
+    line-height: 1.2;
+}
+
+.footer-column a:hover {
+    color: #80d443;
+}
+
+.newsletter p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #f1f3f6;
+}
+
+.subscribe {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 47px;
+    flex: 1;
+    min-width: 0;
+    padding: 0 10px;
+    gap: 8px;
+}
+
+.email-box span {
+    color: #777777;
+    font-size: 23px;
+}
+
+.email-box input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: #333333;
+}
+
+.subscribe button {
+    background-color: #073b70;
+    color: #ffffff;
+    border: none;
+    padding: 0 18px;
+    height: 47px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #0b528f;
+}
+
+/* Bottom section */
+
+.footer-bottom {
+    border-top: 1px solid #344154;
+    min-height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 15px 12px;
+}
+
+.payment-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.payment-icons img {
+    width: 50px;
+    height: 32px;
+    padding: 5px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #f1f3f6;
+}
